@@ -1,5 +1,5 @@
 # carousel
-A Reatjs based Carousel 
+A Reactjs based Carousel 
 
 
 -Carousel has slides.
