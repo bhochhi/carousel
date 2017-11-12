@@ -4,11 +4,13 @@ import PropTypes from 'prop-types';
 
 
 class Slide extends Component {
+    
 
-    render(k){
-        console.log('kkk',k);
+
+    render(){
+        const slide = this.props.slide;
         return (
-            <li>{this.props.slide.title}</li>
+            <img alt={slide.title} src={slide.imgUrl} height="600" width="auto" />
         )
     }
 
